@@ -1,0 +1,195 @@
+.main-logo{
+  height: 10px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+}
+.navlogo{
+  background-image: url("logo.png");
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+.phase1{
+    background-image: url("logo-img.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 30px;
+    
+}
+.phase1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.phase1 h1{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+}
+.phase1 p{
+    padding-left: 40px;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+.navbar p{
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.nav-content p{
+  position: relative;
+  margin: 0;
+  color: #ffffff;
+  font-size: small;
+}
+.phase2{
+     background-color: #ffffff;
+}
+.phase2 h1{
+    color: rgb(3, 3, 27);
+    padding-left: 40px;
+    padding-top:25px;
+}
+.phase2 p{
+    padding-left: 40px;
+    color: black;
+    font-size: medium;
+}
+.main-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-box {
+  background-color: white;
+  width: 140px;
+  height: 130px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #002147; /* Navy blue text/icon color */
+}
+
+.service-box i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.phase2{
+    display: flex;
+}
+.services{
+    height: 200px;
+    color: rgb(3, 3, 27);
+    padding-left: 40px;
+    padding-top:25px;
+    
+}
+.containers{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    padding-left: 50px;
+}
+.box-cont {
+  background-color: white;
+  width: 140px;
+  height: 130px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #002147; /* Navy blue text/icon color */
+}
+.box-cont i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.box-cont:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.choose-us{
+  padding-right: 40px;
+  display: flex;
+  justify-content: right;
+  color: rgb(3, 3, 27);
+}
+.phase3{
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+  padding-right: 100px;
+}
+.projects{
+  display: flex;
+  color: rgb(3, 3, 27);
+  justify-content: center;
+  text-decoration: solid rgb(2, 2, 28) underline;
+}
+.project-img1{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 30px;
+}
+.project-img2{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.img{
+  height: 150px;
+  width: 300px;
+  background-size: cover;
+}
+footer{
+  background-color: rgb(2, 2, 31);
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+
+}
+footer:hover{
+  color: #00ffff;
+}
+
